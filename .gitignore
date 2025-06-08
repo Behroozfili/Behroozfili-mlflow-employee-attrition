@@ -1,0 +1,83 @@
+
+**15. `.gitignore`**
+
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds خوexe, so as to inject date/version injecting into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project-specific
+# MLflow
+# mlruns/  <-- تصمیم بگیرید که آیا می‌خواهید این را در گیت داشته باشید یا نه. برای شروع معمولا خوب است که کامیت نشود.
+# اگر میخواهید کامیت نشود از کامنت در بیاورید
+# .mlflow_tracking_uris
+
+# Data files (اگر حجمشان زیاد است یا محرمانه هستند)
+# data/raw/*.csv # اگر داده خام در گیت نباشد (در این پروژه هست)
+data/processed/
+models/*.joblib
+models/*.pkl
+*.log # لاگ‌های جنریت شده توسط برنامه
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.DS_Store

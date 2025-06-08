@@ -1,0 +1,6 @@
+artifact_location: file:///app/mlruns/860600168804695963
+creation_time: 1749397108662
+experiment_id: '860600168804695963'
+last_update_time: 1749397108662
+lifecycle_stage: active
+name: EmployeeAttrition_DockerShell

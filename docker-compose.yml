@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  run-pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: employee-attrition-pipeline:latest
+    container_name: attrition_pipeline_executor
+    volumes:
+      - ./data/raw:/app/data/raw:ro
+      - ./data/processed:/app/data/processed
+      - ./models:/app/models
+      - ./mlruns:/app/mlruns
+    command: ["bash", "scripts/run_training.sh"]
+    environment:
+      - PYTHONPATH=/app
+
+  mlflow-ui:
+    image: employee-attrition-pipeline:latest
+    container_name: attrition_mlflow_ui
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./mlruns:/app/mlruns
+    command: >
+      mlflow ui
+      --host 0.0.0.0
+      --port 5000
+      --backend-store-uri file:///app/mlruns

@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1749397115820
+current_stage: None
+description: null
+last_updated_timestamp: 1749397115820
+name: EmployeeAttritionModel
+run_id: 6324fe17dcd148b5b8a7ec097bd82c00
+run_link: null
+source: file:///app/mlruns/860600168804695963/6324fe17dcd148b5b8a7ec097bd82c00/artifacts/attrition-model
+status: READY
+status_message: null
+storage_location: file:///app/mlruns/860600168804695963/6324fe17dcd148b5b8a7ec097bd82c00/artifacts/attrition-model
+user_id: null
+version: 1

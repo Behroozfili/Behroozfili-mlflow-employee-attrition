@@ -1,0 +1,9 @@
+pandas
+scikit-learn
+mlflow>=1.20 # حداقل یک نسخه معقول از mlflow
+matplotlib
+seaborn
+joblib # اگرچه بخشی از scikit-learn است، گاهی جداگانه لیست می‌شود
+numpy # معمولا به عنوان وابستگی نصب می‌شود
+# python-dotenv # اگر از فایل .env استفاده می‌کنید
+jupyterlab
