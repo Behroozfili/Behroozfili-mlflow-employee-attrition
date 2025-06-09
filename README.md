@@ -405,7 +405,7 @@ flake8 src/
 
 - 🐛 **Bug Reports**: [Create an issue](https://github.com/yourusername/employee-attrition-ml/issues)
 - 💡 **Feature Requests**: [Start a discussion](https://github.com/yourusername/employee-attrition-ml/discussions)
-- 📧 **Email**: your.email@domain.com
+- 📧 **Email**: behrooz.filzadeh@gmail.com.com
 
 ---
 
