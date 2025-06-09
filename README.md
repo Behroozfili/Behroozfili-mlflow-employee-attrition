@@ -1,8 +1,4 @@
-Sure! Here's your improved and beautified README in proper Markdown format, ready to copy and commit:
 
-markdown
-Copy
-Edit
 # 🚀 Employee Attrition Prediction ML Pipeline
 
 This project implements an **end-to-end MLOps pipeline** for predicting employee attrition. It includes steps for data loading, preprocessing, feature engineering, model training, evaluation, and experiment tracking using **MLflow**. The pipeline can be executed either **locally using Python** or inside **Docker containers using Docker Compose**.
